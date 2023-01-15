@@ -1,5 +1,4 @@
 [![Github All Releases](https://img.shields.io/github/downloads/darekmer/JD-Facebook-Page/total.svg)](https://github.com/darekmer/JD-Facebook-Page/releases)
-![AUR](https://img.shields.io/aur/license/yaourt.svg)
 [![GitHub release](https://img.shields.io/github/release/darekmer/JD-Facebook-Page.svg)](https://github.com/darekmer/JD-Facebook-Page/releases)
 
 # JD Facebook Page
