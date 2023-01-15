@@ -24,6 +24,7 @@ $button=$params->get('hide_button');
 $adapt=$params->get('adapt_container_width');
 $custom_border_css=$params->get('custom_css');
 $moduleclass_sfx = $params->get('moduleclass_sfx');
+$fb_lang=$params->get('fb_lang');
 ?>
 
 <div style="<?php echo $custom_border_css; ?>" class="fb-page <?php echo $moduleclass_sfx;?>" 
@@ -40,4 +41,4 @@ $moduleclass_sfx = $params->get('moduleclass_sfx');
   <div class="fb-xfbml-parse-ignore"></div>
 </div>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=<?php echo $fb_appid; ?>&autoLogAppEvents=1"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?php echo $fb_lang; ?>/sdk.js#xfbml=1&version=v11.0&appId=<?php echo $fb_appid; ?>&autoLogAppEvents=1"></script>
