@@ -17,10 +17,10 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.mod_jdfacebookpage.ini</language>
 		<language tag="en-GB">en-GB/en-GB.mod_jdfacebookpage.sys.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.mod_jdfacebookpage.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.mod_jdfacebookpage.sys.ini</language>
 	</languages>
-	<updateservers>
-		<server type="extension" priority="1" name="mod_jdfacebookpage">https://cdn.joomdev.com/updates/mod_jdfacebooklikebox.xml</server>
-	</updateservers>
+	
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
@@ -48,6 +48,7 @@
 				</field>
 				<field name="fb_width" type="text" showon="adapt_container_width:true" label="MOD_JDFACEBOOKPAGE_XML_FB_WIDTH_LABEL" hint="MOD_JDFACEBOOKPAGE_XML_FB_WIDTH_HINT" description="MOD_JDFACEBOOKPAGE_XML_FB_WIDTH_DESCRIPTION" default="250"/>
 				<field name="fb_height" type="text" showon="adapt_container_width:true" label="MOD_JDFACEBOOKPAGE_XML_FB_HEIGHT_LABEL" hint="MOD_JDFACEBOOKPAGE_XML_FB_HEIGHT_HINT" description="MOD_JDFACEBOOKPAGE_XML_FB_HEIGHT_DESCRIPTION" default="400"/>
+				<field name="fb_lang" type="text" default="en_US" label="MOD_JDFACEBOOKPAGE_XML_FB_LANG_LABEL" description="MOD_JDFACEBOOKPAGE_XML_FB_LANG_DESC" />
 			</fieldset>
 			<fieldset name="advanced">
 				<field name="custom_css" type="textarea" label="MOD_JDFACEBOOKPAGE_XML_FB_CUSTOM_CSS_LABEL" description="MOD_JDFACEBOOKPAGE_XML_FB_CUSTOM_CSS_DESCRIPTION" />
