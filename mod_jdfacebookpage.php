@@ -9,6 +9,6 @@
 
 defined('_JEXEC') or die;
 
-$jdmoduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
+$jdmoduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx', ''));
 
 require JModuleHelper::getLayoutPath('mod_jdfacebookpage', $params->get('layout', 'default'));
